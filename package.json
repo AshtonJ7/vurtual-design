@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "I used the the design idea of my previous portfolio to create a brand new portfolio using the React framework.\r My aim was to use all the knowledge I had gained to create portfolio with a nicer UI and show cases my latest projects and increased skill range.",
-  "homepage": "https://github.com/AshtonJ7/vurtual-design",
+  "homepage": "https://ashtonj7.github.io/vurtual-design/",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
