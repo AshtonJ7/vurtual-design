@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AshtonJ7/vurtual-design/static/css/main.bfcf7396.css",
-    "main.js": "/AshtonJ7/vurtual-design/static/js/main.bd44d4a4.js",
+    "main.js": "/AshtonJ7/vurtual-design/static/js/main.17fdc9ce.js",
     "index.html": "/AshtonJ7/vurtual-design/index.html",
     "main.bfcf7396.css.map": "/AshtonJ7/vurtual-design/static/css/main.bfcf7396.css.map",
-    "main.bd44d4a4.js.map": "/AshtonJ7/vurtual-design/static/js/main.bd44d4a4.js.map"
+    "main.17fdc9ce.js.map": "/AshtonJ7/vurtual-design/static/js/main.17fdc9ce.js.map"
   },
   "entrypoints": [
     "static/css/main.bfcf7396.css",
-    "static/js/main.bd44d4a4.js"
+    "static/js/main.17fdc9ce.js"
   ]
 }
