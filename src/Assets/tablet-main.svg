@@ -1,0 +1,25 @@
+<svg viewBox="0 0 680 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Animated drawing of a tilted tablet with a black screen</title>
+<desc>A tablet illustrated at an angle on a white background, drawn stroke by stroke with the screen filling in solid black, then looping.</desc>
+<style>
+.draw { fill: none; stroke: #cccccc; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.body { stroke-dasharray: 1400; stroke-dashoffset: 1400; fill: #fafafa; animation: dashbody 14s ease-in-out infinite; }
+.screenline { stroke-dasharray: 1150; stroke-dashoffset: 1150; animation: dashscreen 14s ease-in-out infinite; }
+.screenfill { fill: #111111; opacity: 0; animation: fillscreen 14s ease-in-out infinite; }
+.home { stroke-dasharray: 90; stroke-dashoffset: 90; animation: dashhome 14s ease-in-out infinite; }
+.camera { fill: #555555; opacity: 0; animation: camerafade 14s ease-in-out infinite; }
+@keyframes dashbody { 0% { stroke-dashoffset: 1400; } 26% { stroke-dashoffset: 0; } 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 1400; } }
+@keyframes dashscreen { 0% { stroke-dashoffset: 1150; } 30% { stroke-dashoffset: 1150; } 52% { stroke-dashoffset: 0; } 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 1150; } }
+@keyframes fillscreen { 0% { opacity: 0; } 54% { opacity: 0; } 62% { opacity: 1; } 92% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes dashhome { 0% { stroke-dashoffset: 90; } 64% { stroke-dashoffset: 90; } 74% { stroke-dashoffset: 0; } 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 90; } }
+@keyframes camerafade { 0% { opacity: 0; } 76% { opacity: 0; } 84% { opacity: 1; } 92% { opacity: 1; } 100% { opacity: 0; } }
+</style>
+<g transform="translate(380,260) rotate(-16)">
+<rect x="-192" y="-126" width="412" height="292" rx="32" fill="#000000" opacity="0.1" transform="translate(12,16)"/>
+<rect class="draw body" x="-200" y="-140" width="400" height="280" rx="30"/>
+<rect class="draw screenline" x="-176" y="-116" width="352" height="204" rx="6"/>
+<rect class="screenfill" x="-176" y="-116" width="352" height="204" rx="6"/>
+<circle class="draw home" cx="0" cy="124" r="13"/>
+<circle class="camera" cx="160" cy="-128" r="3.5"/>
+</g>
+</svg>
