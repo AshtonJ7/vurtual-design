@@ -1,0 +1,35 @@
+<svg viewBox="0 0 680 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Animated drawing of a straight-on smartphone with a black screen</title>
+<desc>A smartphone illustrated front-on, on a white background, drawn stroke by stroke with the screen filling in solid black, then looping.</desc>
+<style>
+.draw { fill: none; stroke: #b8b8b8; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.body { stroke-dasharray: 1350; stroke-dashoffset: 1350; fill: #fafafa; animation: dashbody 14s ease-in-out infinite; }
+.screenline { stroke-dasharray: 1050; stroke-dashoffset: 1050; animation: dashscreen 14s ease-in-out infinite; }
+.screenfill { fill: #111111; opacity: 0; animation: fillscreen 14s ease-in-out infinite; }
+.home { stroke-dasharray: 105; stroke-dashoffset: 105; animation: dashhome 14s ease-in-out infinite; }
+.details { opacity: 0; animation: detailsfade 14s ease-in-out infinite; }
+.detailfill { fill: #999999; }
+@keyframes dashbody { 0% { stroke-dashoffset: 1350; } 26% { stroke-dashoffset: 0; } 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 1350; } }
+@keyframes dashscreen { 0% { stroke-dashoffset: 1050; } 30% { stroke-dashoffset: 1050; } 50% { stroke-dashoffset: 0; } 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 1050; } }
+@keyframes fillscreen { 0% { opacity: 0; } 52% { opacity: 0; } 60% { opacity: 1; } 92% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes detailsfade { 0% { opacity: 0; } 62% { opacity: 0; } 70% { opacity: 1; } 92% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes dashhome { 0% { stroke-dashoffset: 105; } 72% { stroke-dashoffset: 105; } 84% { stroke-dashoffset: 0; } 92% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 105; } }
+</style>
+<g transform="translate(340,250)">
+<rect x="-114" y="-224" width="228" height="448" rx="36" fill="#000000" opacity="0.06" transform="translate(8,10)"/>
+<rect class="draw body" x="-110" y="-220" width="220" height="440" rx="34"/>
+<rect class="draw screenline" x="-92" y="-192" width="184" height="330" rx="8"/>
+<rect class="screenfill" x="-92" y="-192" width="184" height="330" rx="8"/>
+<circle class="draw home" cx="0" cy="170" r="16"/>
+<g class="details">
+<rect class="detailfill" x="-20" y="-206" width="40" height="4" rx="2"/>
+<circle class="detailfill" cx="40" cy="-206" r="3"/>
+<circle class="draw" cx="-70" cy="205" r="5"/>
+<rect class="draw" x="-10" y="210" width="20" height="6" rx="3"/>
+<circle class="detailfill" cx="48" cy="207" r="2"/>
+<circle class="detailfill" cx="58" cy="207" r="2"/>
+<circle class="detailfill" cx="68" cy="207" r="2"/>
+<circle class="detailfill" cx="78" cy="207" r="2"/>
+</g>
+</g>
+</svg>
