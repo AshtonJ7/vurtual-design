@@ -53,5 +53,8 @@
     "core-js-pure@3.50.0": true,
     "react-tsparticles@1.43.1": true,
     "tsparticles@1.43.1": true
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

@@ -6,10 +6,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import '../styles/Footer.css';
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
-=======
->>>>>>> 621b94af1b3c080cbcec39b429c3e3b21e010709
 
 function Footer() {
   let date = new Date();
@@ -21,11 +18,7 @@ function Footer() {
           <h3>Vurtual Design</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-<<<<<<< HEAD
           <h3>Copyright © {year} VR </h3> <Link to="/privacy-policy">Privacy Policy</Link>
-=======
-          <h3>Copyright © {year} VR</h3>
->>>>>>> 621b94af1b3c080cbcec39b429c3e3b21e010709
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
