@@ -1,4 +1,6 @@
-git rm -r --cached build
+
+node_modules
+build
 
 # Logs
 logs
