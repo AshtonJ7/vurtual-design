@@ -1,6 +1,5 @@
 {
   "files": {
-<<<<<<< HEAD
     "main.css": "/vurtual-design/static/css/main.bfcf7396.css",
     "main.js": "/vurtual-design/static/js/main.8c71070e.js",
     "index.html": "/vurtual-design/index.html",
@@ -10,16 +9,5 @@
   "entrypoints": [
     "static/css/main.bfcf7396.css",
     "static/js/main.8c71070e.js"
-=======
-    "main.css": "/AshtonJ7/vurtual-design/static/css/main.bfcf7396.css",
-    "main.js": "/AshtonJ7/vurtual-design/static/js/main.17fdc9ce.js",
-    "index.html": "/AshtonJ7/vurtual-design/index.html",
-    "main.bfcf7396.css.map": "/AshtonJ7/vurtual-design/static/css/main.bfcf7396.css.map",
-    "main.17fdc9ce.js.map": "/AshtonJ7/vurtual-design/static/js/main.17fdc9ce.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.bfcf7396.css",
-    "static/js/main.17fdc9ce.js"
->>>>>>> 5f98ef4febf43ca19699b5471ca3db79e8e5bb6b
   ]
 }
