@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vurtual-design/static/css/main.bfcf7396.css",
-    "main.js": "/vurtual-design/static/js/main.64a189a1.js",
+    "main.js": "/vurtual-design/static/js/main.8c71070e.js",
     "index.html": "/vurtual-design/index.html",
     "main.bfcf7396.css.map": "/vurtual-design/static/css/main.bfcf7396.css.map",
-    "main.64a189a1.js.map": "/vurtual-design/static/js/main.64a189a1.js.map"
+    "main.8c71070e.js.map": "/vurtual-design/static/js/main.8c71070e.js.map"
   },
   "entrypoints": [
     "static/css/main.bfcf7396.css",
-    "static/js/main.64a189a1.js"
+    "static/js/main.8c71070e.js"
   ]
 }
