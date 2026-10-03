@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vurtual-design/static/css/main.bfcf7396.css",
+    "main.js": "/vurtual-design/static/js/main.64a189a1.js",
+    "index.html": "/vurtual-design/index.html",
+    "main.bfcf7396.css.map": "/vurtual-design/static/css/main.bfcf7396.css.map",
+    "main.64a189a1.js.map": "/vurtual-design/static/js/main.64a189a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfcf7396.css",
+    "static/js/main.64a189a1.js"
+  ]
+}
