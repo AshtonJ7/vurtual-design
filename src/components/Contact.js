@@ -21,7 +21,7 @@ function ContactForm() {
           <div className="container">
             <div className="git-cont row">
               <div className="col-12 col-sm-6 half">
-                <form onSubmit={handleSubmit}>
+                <form  method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
                   <label htmlFor="fname"> Name </label>
                   <input type="text" id="fname" name="firstname" placeholder="Your name" required />
                   
